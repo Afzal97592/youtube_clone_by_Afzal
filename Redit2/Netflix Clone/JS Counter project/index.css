@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(hotpink,#008080);
+}
+.container{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container .counter{
+    background-color: white;
+    padding: 2.5rem;
+    border-radius:1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 29px 0px;
+    
+}
+.container .counter p{
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 300;
+    line-height: 1;
+}
+.container .counter h1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 3.5rem;
+    color: crimson;
+}
+.container .buttons{
+    text-align: center;
+
+}
+.container .buttons #add{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: plum;
+}
+.container .buttons #Reset{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: gray;
+}
+.container .buttons #sub{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: indianred;
+}
+.container .buttons #add:hover{
+    background-color: #ff69b4;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 2px darkcyan;
+}
+.container .buttons #Reset:hover{
+    background-color: #2f4f4f;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 2px dodgerblue;
+}
+.container .buttons #sub:hover{
+    background-color: #bb0000;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 2px purple;
+}
